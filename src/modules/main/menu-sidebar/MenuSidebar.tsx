@@ -20,6 +20,11 @@ export const MENU: IMenuItem[] = [
     path: '/',
   },
   {
+    name: "Ver Calendario",
+    icon: 'fas fa-wrench nav-icon',
+    path: '/calendario',
+  },
+  {
     name: i18n.t('menusidebar.label.blank'),
     icon: 'fas fa-wrench nav-icon',
     path: '/blank',
